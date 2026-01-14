@@ -1134,7 +1134,7 @@ def main():
     if connect_database():
         create_tables()
         if DEBUG_MODE:
-            logged_in_user = "adieesh"
+            logged_in_user = "T.CHARAN"
             show_main_page()
         else:
             show_login_page()
@@ -1153,3 +1153,4 @@ def main():
 # Run the program
 if __name__ == "__main__":
     main()
+
